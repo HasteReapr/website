@@ -1,0 +1,11 @@
+.card {
+  border: 0.5vmin solid;
+  border-color: var(--bs-light);
+  transform: scale(1);
+  transition: transform, 200ms ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+

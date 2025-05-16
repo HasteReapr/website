@@ -1,0 +1,9 @@
+.comm_buttons {
+  transform: translateY(-6px);
+  transition: transform ease 0.1s;
+}
+
+.comm_buttons:active {
+  transform: translateY(-2px);
+}
+
